@@ -1,0 +1,140 @@
+.sun {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 94, 0);
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  top: 390px;
+  left: 30%;
+}
+.grass {
+  height: 50px;
+  width: auto;
+  background-color: green;
+  position: relative;
+  top: -105px;
+}
+.sky {
+  background-image: linear-gradient(blue, yellow, orange, red);
+  height: 500px;
+  z-index: 0;
+}
+.mountain {
+  height: 0px;
+  width: 0px;
+  border-left: 140px solid transparent;
+  border-right: 110px solid transparent;
+  border-bottom: 110px solid rgb(70, 54, 54);
+  z-index: 1;
+  position: absolute;
+  top: 470px;
+  left: 50%;
+}
+.houses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.roofs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.home {
+  height: 40px;
+  width: 65px;
+  background-color: black;
+  z-index: 2;
+  position: relative;
+  top: -105px;
+}
+.roof {
+  height: 40px;
+  width: 40px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid gray;
+  z-index: 2;
+  position: relative;
+  top: -105px;
+}
+@media (max-width: 480px) {
+  .sun {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 94, 0);
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 390px;
+    left: 30%;
+  }
+  .grass {
+    height: 50px;
+    width: auto;
+    background-color: green;
+    position: relative;
+    top: -105px;
+  }
+  .sky {
+    background-image: linear-gradient(blue, yellow, orange, red);
+    height: 500px;
+    z-index: 0;
+  }
+  .mountain {
+    height: 0px;
+    width: 0px;
+    border-left: 100px solid transparent;
+    border-right: 85px solid transparent;
+    border-bottom: 85px solid rgb(70, 54, 54);
+    z-index: 1;
+    position: absolute;
+    top: 465px;
+    left: 50%;
+  }
+  .houses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .roofs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .home {
+    height: 30px;
+    width: 42px;
+    background-color: black;
+    z-index: 2;
+    position: relative;
+    top: -105px;
+  }
+  .roof {
+    height: 20px;
+    width: 20px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid gray;
+    z-index: 2;
+    position: relative;
+    top: -105px;
+  }
+}
+@media (min-width: 1680px) {
+  body {
+    margin-left: 5vh;
+    margin-right: 5vh;
+  }
+  .sun {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 94, 0);
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 390px;
+    left: 30%;
+  }
+}
